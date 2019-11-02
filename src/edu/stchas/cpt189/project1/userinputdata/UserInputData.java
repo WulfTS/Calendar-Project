@@ -21,9 +21,6 @@ public class UserInputData {
 
 	}
 
-    protected UserInputData(){
-
-    }
 
     // Create getters & setters
 
