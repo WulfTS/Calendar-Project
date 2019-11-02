@@ -44,15 +44,14 @@ public class PrintCalendar {
     /**
      * All arguments constructor
      * @param userInputData UserInputData object containing the input user data
-     * @param numDaysInMonth Integer number of days in month
      *
      */
-    public PrintCalendar(UserInputData userInputData, Integer numDaysInMonth){
+    public PrintCalendar(UserInputData userInputData){
         this.year = userInputData.getYear();
-        this.numDaysInMonth = numDaysInMonth;
         this.monthStr = monthMap.get(userInputData.getMonth());
         this.firstDayOfMonth = userInputData.getFirstDayOfMonth().substring(0,1).toUpperCase() +
                             userInputData.getFirstDayOfMonth().substring(1).toLowerCase();
+        this.numDaysInMonth = userInputData.getDaysInMonth();
 
     }
 
