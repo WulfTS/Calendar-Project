@@ -238,7 +238,7 @@ public class PrintCalendar {
             }
             /*
              * make sure final row length = calendarCharWidth
-             * by padding right additonal spaces if row length < calendarCharWidth
+             * by padding right additional spaces if row length < calendarCharWidth
              * & by only returning the substring that is = calenderCharWidth if row length > calendarCharWidth
              */
             while (row.length() != calendarCharWidth){
