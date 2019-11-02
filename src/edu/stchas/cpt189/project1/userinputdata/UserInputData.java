@@ -1,9 +1,9 @@
 package edu.stchas.cpt189.project1.userinputdata;
 
 public class UserInputData {
-    Integer month; // Integer representation of user input month
-    Integer year; // Integer representation of user input year
-    String firstDayOfMonth; //String representation of weekday the first day of the month falls on
+    private Integer month; // Integer representation of user input month
+    private Integer year; // Integer representation of user input year
+    private String firstDayOfMonth; //String representation of weekday the first day of the month falls on
 
     /**
      * All arguments constructor
@@ -15,6 +15,10 @@ public class UserInputData {
         this.month = month;
         this.year = year;
         this.firstDayOfMonth = firstDayOfMonth;
+
+    }
+
+    protected UserInputData(){
 
     }
 
