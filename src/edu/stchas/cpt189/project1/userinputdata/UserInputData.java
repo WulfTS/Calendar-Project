@@ -1,14 +1,13 @@
 package edu.stchas.cpt189.project1.userinputdata;
 
 public class UserInputData {
-	Integer month; // Integer representation of user input month
-	Integer year; // Integer representation of user input year
-	String firstDayOfMonth; // String representation of weekday the first day of the month falls on
-	Integer daysInMonth;
-
+    private Integer month; // Integer representation of user input month
+    private Integer year; // Integer representation of user input year
+    private String firstDayOfMonth; //String representation of weekday the first day of the month falls on
+    private Integer daysInMonth;
 	/**
 	 * All arguments constructor
-	 * 
+	 *
 	 * @param month           Integer representation of user input month
 	 * @param year            Integer representation of user input year
 	 * @param firstDayOfMonth String representation of weekday the first day of the
@@ -22,7 +21,11 @@ public class UserInputData {
 
 	}
 
-	// Create getters & setters
+    protected UserInputData(){
+
+    }
+
+    // Create getters & setters
 
 	public String getFirstDayOfMonth() {
 		return firstDayOfMonth;
