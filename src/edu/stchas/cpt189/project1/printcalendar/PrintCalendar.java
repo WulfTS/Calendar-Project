@@ -39,7 +39,7 @@ public class PrintCalendar {
      * List<String> that holds days of the week as 3 letter string values
      */
     private static List<String> weekdayList = new ArrayList<>(Arrays.asList(
-            "Sun", "Mon","Tue","Wed","Thr","Fri","Sat"));
+            "Sun", "Mon","Tue","Wed","Thu","Fri","Sat"));
 
     /**
      * All arguments constructor
@@ -239,7 +239,7 @@ public class PrintCalendar {
             }
             /*
              * make sure final row length = calendarCharWidth
-             * by padding right additonal spaces if row length < calendarCharWidth
+             * by padding right additional spaces if row length < calendarCharWidth
              * & by only returning the substring that is = calenderCharWidth if row length > calendarCharWidth
              */
             while (row.length() != calendarCharWidth){
